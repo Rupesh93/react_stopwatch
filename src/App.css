@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 20px;
+  color: white;
+}
+.start {
+  background: green;
+}
+.start:disabled {
+  background: gray;
+}
+.stop {
+  background: red;
+}
+.reset {
+  background: orange;
+}
